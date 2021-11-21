@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="logo.png" id="logo" alt="logo">
+    
+
+    <button onclick="miFuncion();">
+        Hazme click
+    </button>
+
+    
+    <script type="text/javascript">
+
+        function miFuncion() {
+            var imagen = document.getElementById("logo");
+            imagen.src = "copy.png"
+        }
+
+    </script>
+
+</body>
+</html>
+
+<!-- <style>
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png" id="img1" alt="img1">
+    
+
+    <button onclick="miFuncion();">
+        Hazme click
+    </button>
+
+    
+    <script type="text/javascript">
+
+        var fotoMostrada = "logo";
+
+        function miFuncion() {
+            var imagen = document.getElementById("img1");
+            if(fotoMostrada == "logo"){
+                imagen.src = "copy.png"
+                fotoMostrada = "copy"
+            }
+            else{
+                imagen.src = "logo.png";
+                fotoMostrada = "logo"
+            }
+            
+        }
+        
+
+    </script>
+ -->
